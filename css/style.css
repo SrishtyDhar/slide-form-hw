@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: url(https://th.bing.com/th/id/R.b3eb553dfd1e51bbfda06e9c5b3f8e7f?rik=cWcKsbrPWYXwug&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f06%2fBlack-Background-4.jpg&ehk=m2ZlPyWv03QpiT%2f8spylaT6ETgT00CcS33TXDdPi9f4%3d&risl=&pid=ImgRaw&r=0);
+background-position: center;
+background-size: cover;
+}
+/* common css end */
+
+/* form */
+
+.container{
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 100px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container form{
+    width: 280px;
+    top: 100px;
+    left: 40px;
+    position: absolute;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+    text-transform: uppercase;
+}
+form input{
+width: 100%;
+padding: 10px 5px;
+margin: 5px 0;
+border: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background: transparent;
+}
+
+::placeholder{
+    color: #777;
+}
+.btn-box{
+    padding-top: 30px;
+}
+form button{
+    padding: 10px 25px;
+    background: linear-gradient(90deg in oklab, rgb(255, 0, 106), rgb(255, 174, 0));
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#form2{
+    left: 450px;
+}
+#form3{
+    left: 450px;
+}
+#pre1{
+    margin-right: 40px;
+}
+#pre2{
+    margin-right: 40px;
+}
+/* form */
